@@ -1,7 +1,5 @@
 name: Using Github repository variables
-
 on: [push]
-
 jobs:
   print-variable:
     runs-on: ubuntu-latest
