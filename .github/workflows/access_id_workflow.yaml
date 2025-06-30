@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: printing value for ACCESS_ID
-        run: echo "ACCESS_ID is ${{ vars.ACCESS_ID }}"
+        run: echo "The ACCESS_ID is ${{ vars.ACCESS_ID }}"
